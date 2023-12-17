@@ -16,12 +16,12 @@ prepareComplexes.sh takes cellTypes.txt file and calls three python scripts:
 	generating condition-specific ppins, ddins and predicting protein complexes
  	# generating sample specific ppins and ddins using PPIXpress
     	ppixTool = "tools/CompleXChange/PPIXpress_1.23/PPIXpress.jar"
-        to download: https://sourceforge.net/projects/ppixpress/
+	to download: https://sourceforge.net/projects/ppixpress/
     	ppinRef = "/tools/CompleXChange/preppi_final600.sif"
      	to download: https://bhapp.c2b2.columbia.edu/PrePPI/
 	# predict protein complexes based on the condition-specific ppin and ddin using JDACO
     	compTool = "/tools/CompleXChange/JDACO_1.03/JDACO.jar"
-        to download: https://sourceforge.net/projects/dacoalgorithm/
+	to download: https://sourceforge.net/projects/dacoalgorithm/
     	seedRef = "/tools/CompleXChange/hocomoco11_TF_769.txt"
  	to download: https://hocomoco12.autosome.org/
 	
