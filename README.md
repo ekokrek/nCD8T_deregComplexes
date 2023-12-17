@@ -22,4 +22,5 @@ prepareComplexes.sh takes cellTypes.txt file and calls three python scripts:
     	seedRef = "/tools/CompleXChange/hocomoco11_TF_769.txt"
  
 	
-	
+compareComplexes.sh quantifies and compares predicted complexes by calling CompleXChange tool.
+	tools/CompleXChange/CompleXChange_1.01/CompleXChange.jar 
