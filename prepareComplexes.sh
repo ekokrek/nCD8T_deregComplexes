@@ -2,7 +2,7 @@
 
 # cell type, age, disease amd sex should be entered as arguments
 
-mainP="/media/sophie/ekokrek_HiC2/Yoshida22"
+mainP="mainPath"
 s="both"
 
 ## declare an array (-a) variable 
